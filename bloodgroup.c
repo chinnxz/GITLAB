@@ -5,18 +5,18 @@ void main()
   int i;
   do
   {
-    printf("What is her name? ");
+    printf("What is their name? ");
     scanf("%s", Name);
     do
     {
-      printf("What is your blood type [A, B, AB, or O]? ");
+      printf("What is your blood genre [A, B, AB, or O]? ");
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
                             strcmp(G, "O") !=0 )
-        printf("Blood type %s is incorrect! Please do it again.\n", G);
+        printf("Blood group %s is incorrect! Please try again.\n", G);
     }  while (strcmp(G, "A") !=0  &&
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
